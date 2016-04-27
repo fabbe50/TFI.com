@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#content {
+    width: 85%;
+    height: auto;
+    outline: 1px solid;
+    position: absolute;
+    right: 0;
+}
