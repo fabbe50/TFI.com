@@ -18,8 +18,7 @@
     width: 15%;
     height: 100%;
     position: fixed;
-    outline: 1px solid;
-    background: black;
+    background: #555;
 }
 
 #cssmenu a {
@@ -28,14 +27,14 @@
 
 #cssmenu > ul > li:first-child {
     background: silver;
-    border-radius: 3px 3px 0 0;
+    /*border-radius: 3px 3px 0 0;*/
 }
 
 #cssmenu > ul > li:first-child > a {
     padding: 15px 10px;
     background: darkgray;
     border: none;
-    border-radius: 3px 3px 0 0;
+    /*border-radius: 3px 3px 0 0;*/
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-size: 18px;
@@ -63,7 +62,8 @@
     font-size: 14px;
     display: block;
     color: #ffffff;
-    border: 1px solid #464646;
+    /*border: 1px solid #464646;*/
+    border-bottom: 1px solid #464646;
     border-top: none;
     text-shadow: 0 -1px 1px #777777;
 }

@@ -3,15 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>The Fifth Idiot: Main Page</title>
-        <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="styles/menu.css">
+        <link rel="stylesheet" href="styles/style.css">
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="scripts/menu.js" type="text/javascript"></script>
         <script src="scripts/script.js"></script>
     </head>
     <body>
-        <header>
-            
-        </header>
         <div id="main">
             <div id='cssmenu'>
                 <ul>
@@ -51,13 +49,25 @@
                             <li class='last'><a href='#'><span>Product 3</span></a></li>
                         </ul>
                     </li> <!-- Molly -->
-                    <li class='last'><a href='#'><span>Contact</span></a></li>
+                    <li class='has-sub'><a href='#'><span>Contact</span></a>
+                        <ul>
+                            <li><a href="mailto:dummy"><span>Teemo</span></a></li>
+                            <li><a href="#"><span>Geergle</span></a></li>
+                            <li><a href="#"><span>Alex</span></a></li>
+                            <li class="last"><a href="#"><span>Molly</span></a></li>
+                        </ul>
+                    </li> <!-- Contact -->
                 </ul>
-            </div>
-            <div id="content"></div>
-        </div>
-        <footer>
+            </div> <!-- SideMenu -->
+            <div id="content">
+               <header>
+                    <h1 id="TFIheader">The Fifth Idiot</h1>
+                </header>
+                
+                <footer>
             
-        </footer>
+                </footer>
+            </div> <!-- Main Content -->
+        </div>
     </body>
 </html>
