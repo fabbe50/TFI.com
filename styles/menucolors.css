@@ -1,0 +1,17 @@
+.menutext {
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+}
+
+a.textblack {
+    color: black !important;
+    font-weight: bold;
+}
+
+a.textwhite {
+    color: white !important;
+    font-weight: bold;
+}
