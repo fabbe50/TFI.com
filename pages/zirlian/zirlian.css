@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Copse);
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+html, body, div#content {
+    width: 100%;
+    width: 900px;
+}
+
+div#content {
+    width: 85%;
+    height: auto;
+    position: absolute;
+    right: 0;
+}
+
+header {
+    background: darkgray;
+}
+
+h1#TFIheader {
+    color: black;
+    font-size: 120px;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    font-family: 'Copse', serif;
+}
+
+div#TFIcontent {
+    background: #444;
+    min-height: 831px;
+    height: 100%;
+}
