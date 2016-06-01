@@ -30,3 +30,9 @@ h1#TFIheader {
     padding: 0;
     font-family: 'Copse', serif;
 }
+
+div#TFIcontent {
+    background: #444;
+    min-height: 831px;
+    height: 100%;
+}
