@@ -131,3 +131,21 @@
     width: 80%;
     margin: 10%;
 }
+
+.menutext {
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+}
+
+.textblack {
+    color: black;
+    font-weight: bold;
+}
+
+.textwhite {
+    color: white;
+    font-weight: bold;
+}
